@@ -163,7 +163,7 @@ h2{
     font-weight: 600;
 }
 
-.tip-amount-result span{
+.tip-amount-result , .total-amount-result{
     color: var(--strong-cyan);
     margin-left: 0.5rem;
     font-size: 1.5rem;
