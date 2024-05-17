@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Tip calculator app</title>
 
@@ -16,22 +17,63 @@
 </head>
 <body>
 
-  Bill
+  <section class="wrapper">
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="calculation">
+        <h3>Bill</h3>
+        <div class="user-input">
+          <img src="images/icon-dollar.svg" alt="">
+          <input class="bill" type="number">
+        </div>
+        <h3>Select Tip %</h3>
+        <div class="tip-btns">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <input type="number" placeholder="Custom" class="custom-value">
+        </div>
+        <h3> Number of People</h3>
+        <div class="user-input">
+          <img src="images/icon-person.svg" alt="">
+          <input type="number">
+        </div>
+      </div>
+      <div class="output">
+        <div class="output-container">
+          <div class="amount">
+            <h2 class="content"> Tip Amount <span >/ person</span></h2>
+            <p class="tip-amount-result"><img src="images/icon-dollar.svg" alt=""><span>600</span></p> 
+          </div>
+          <div class="amount">
+            <h2 class="content"> Total <span >/ person</span></h2>
+            <p class="tip-amount-result"><img src="images/icon-dollar.svg" alt=""><span>600</span></p> 
+          </div>
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+  
 
-  Number of People
+  
+  
+  
+  
+  
+  
+ 
+ 
 
-  Tip Amount
-  / person
+ 
+  
 
-  Total
+  
   / person
 
   Reset
